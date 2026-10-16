@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PAUSE! Privacy Policy</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&display=swap">
+<style>
+/* Layout: one reading column, game-coloured header band, PL then EN sections with a language switch */
+:root {
+  --bg: #f6f6fb;
+  --surface: #ffffff;
+  --fg: #171a2e;
+  --muted: #565b78;
+  --line: #dcdeeb;
+  --band: #1b2448;
+  --band-fg: #ffffff;
+  --accent: #ffcf4a;
+  --pink: #d6337f;
+  --display: "Bricolage Grotesque", "Arial Black", system-ui, sans-serif;
+  --body: "Atkinson Hyperlegible", "Segoe UI", system-ui, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0e1226; --surface: #161b36; --fg: #eceef8; --muted: #a3a8c6; --line: #2a3156;
+    --band: #1b2448; --band-fg: #ffffff; --accent: #ffcf4a; --pink: #ff6fae; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0e1226; --surface: #161b36; --fg: #eceef8; --muted: #a3a8c6; --line: #2a3156;
+  --band: #1b2448; --band-fg: #ffffff; --accent: #ffcf4a; --pink: #ff6fae; color-scheme: dark;
+}
+body { background: var(--bg); color: var(--fg); font: 17px/1.65 var(--body); }
+.band { background: var(--band); color: var(--band-fg); }
+.wrap {
+  max-width: 44rem; margin: 0 auto;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+.band .wrap { padding-block: 2.2rem 1.8rem; display: grid; gap: 0.9rem; }
+.brand { display: flex; align-items: center; gap: 0.8rem; }
+.tile { width: 2.6rem; height: 2.6rem; border-radius: 0.6rem; background: #ff4fa3; display: grid; place-items: center; flex: none; }
+.tile i { display: block; width: 0.32rem; height: 1.1rem; background: #fff; border-radius: 2px; margin: 0 0.12rem; }
+.tile span { display: flex; }
+.brand b { font: 800 1.9rem/1 var(--display); letter-spacing: -0.01em; color: var(--accent); }
+h1 { font: 700 clamp(1.6rem, 4.5vw, 2.3rem)/1.15 var(--display); margin: 0; text-wrap: balance; }
+.meta { color: #c9cde6; font-size: 0.95rem; margin: 0; }
+.switch { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+.switch a {
+  color: var(--band-fg); text-decoration: none; font-weight: 700; font-size: 0.9rem;
+  border: 1.5px solid #4a5590; border-radius: 999px; padding: 0.3rem 0.9rem;
+}
+.switch a:hover, .switch a:focus-visible { border-color: var(--accent); color: var(--accent); outline: none; }
+main .wrap { padding-block: 2rem 3rem; display: grid; gap: 3rem; }
+section.lang { display: grid; gap: 1.6rem; }
+.lang-label {
+  font: 700 0.78rem/1 var(--body); letter-spacing: 0.12em; text-transform: uppercase; color: var(--pink);
+}
+.summary {
+  background: var(--surface); border: 1px solid var(--line); border-left: 4px solid var(--accent);
+  border-radius: 0.5rem; padding: 1rem 1.2rem;
+}
+.summary p { margin: 0; }
+h2 { font: 700 1.3rem/1.25 var(--display); margin: 0 0 0.4rem; text-wrap: balance; }
+article { display: grid; gap: 1.4rem; }
+article div p, article div ul { margin: 0 0 0.6rem; }
+ul { padding-left: 1.2rem; }
+li { margin-bottom: 0.35rem; }
+a { color: var(--pink); }
+.mail {
+  display: inline-block; font-weight: 700; background: var(--surface); border: 1px solid var(--line);
+  border-radius: 0.4rem; padding: 0.1rem 0.5rem; user-select: all; word-break: break-all;
+}
+hr { border: 0; border-top: 1px solid var(--line); margin: 0; }
+footer { color: var(--muted); font-size: 0.9rem; }
+</style>
+<style>body{margin:0}</style>
+</head>
+<body>
+
+<header class="band">
+  <div class="wrap">
+    <div class="brand"><div class="tile" aria-hidden="true"><span><i></i><i></i></span></div><b>PAUSE!</b></div>
+    <h1>Polityka prywatności · Privacy Policy</h1>
+    <p class="meta">Obowiązuje od 16 października 2026 (aktualizacja: kopia zapasowa) · Effective October 16, 2026 (updated: backup)</p>
+    <nav class="switch" aria-label="Język / Language"><a href="#pl">Polski</a><a href="#en">English</a></nav>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+
+    <section class="lang" id="pl" lang="pl">
+      <div class="lang-label">Polski</div>
+      <div class="summary"><p><strong>W skrócie:</strong> PAUSE! nie zbiera żadnych danych osobowych. Nie ma konta, reklam ani analityki. Twój postęp zostaje na Twoim telefonie, a płatności obsługuje Google Play.</p></div>
+      <article>
+        <div>
+          <h2>Kto odpowiada za grę</h2>
+          <p>Ta polityka dotyczy gry mobilnej PAUSE! (pakiet <code>com.pause.perfecttiming</code>) na Androida, udostępnianej w Google Play przez jej twórcę. W sprawach prywatności napisz na adres: <span class="mail">szpajza@proton.me</span></p>
+        </div>
+        <div>
+          <h2>Jakie dane zbieramy</h2>
+          <p>Żadnych. Gra nie wymaga konta ani logowania, nie zawiera reklam, narzędzi analitycznych ani śledzenia. Nie wysyła żadnych danych na serwery twórcy (gra nie ma własnych serwerów).</p>
+        </div>
+        <div>
+          <h2>Dane zapisywane na telefonie</h2>
+          <p>Gra zapisuje lokalnie, tylko na Twoim urządzeniu:</p>
+          <ul>
+            <li>postęp w grze: wyniki, gwiazdki, monety, odznaki, skórki, serie dni i misje,</li>
+            <li>ustawienia: język, dźwięk, wibracje, godzinę przypomnień,</li>
+            <li>informację, czy masz pełną wersję gry.</li>
+          </ul>
+          <p>Twórca gry nie otrzymuje tych danych. Jeśli w telefonie masz włączoną kopię zapasową Androida, system może zapisać je w Twojej prywatnej kopii zapasowej na Dysku Google i przywrócić po ponownej instalacji gry lub na nowym telefonie. Tę kopię obsługuje Google, a twórca gry nie ma do niej dostępu. Możesz ją wyłączyć w ustawieniach telefonu (Kopia zapasowa).</p>
+          <p>W ustawieniach gry możesz też sam skopiować „kod kopii zapasowej” z postępem i zapisać go, gdzie chcesz. Gra nigdzie go nie wysyła.</p>
+        </div>
+        <div>
+          <h2>Zakupy w aplikacji</h2>
+          <p>Pełną wersję gry kupujesz przez Google Play. Płatność w całości obsługuje Google, a twórca gry nie otrzymuje danych Twojej karty ani innych danych płatniczych. Gra sprawdza w Google Play na Twoim telefonie tylko to, czy pełna wersja została kupiona, żeby ją odblokować. Przetwarzanie danych przez Google opisuje <a href="https://policies.google.com/privacy" rel="noopener">Polityka prywatności Google</a>.</p>
+        </div>
+        <div>
+          <h2>Przypomnienia</h2>
+          <p>Przypomnienia o wyzwaniu dnia są opcjonalne i domyślnie wyłączone. Jeśli je włączysz, gra poprosi o zgodę na powiadomienia i zaplanuje je lokalnie na telefonie. Nie korzystamy z serwerów do wysyłania powiadomień. Możesz je wyłączyć w ustawieniach gry albo telefonu.</p>
+        </div>
+        <div>
+          <h2>Udostępnianie wyniku</h2>
+          <p>Gdy klikniesz „Udostępnij wynik”, gra tworzy obrazek z wynikiem i otwiera systemowe okno udostępniania. Sam decydujesz, czy i komu go wyślesz. Gra niczego nie wysyła sama.</p>
+        </div>
+        <div>
+          <h2>Uprawnienia</h2>
+          <ul>
+            <li>Wibracje: krótka wibracja przy zatrzymaniu obiektu.</li>
+            <li>Powiadomienia: tylko gdy włączysz przypomnienia.</li>
+            <li>Rozliczenia Google Play: zakup pełnej wersji.</li>
+          </ul>
+        </div>
+        <div>
+          <h2>Dzieci</h2>
+          <p>Gra nie zbiera danych od nikogo, także od dzieci.</p>
+        </div>
+        <div>
+          <h2>Twoje prawa</h2>
+          <p>Ponieważ nie przechowujemy Twoich danych, nie mamy czego udostępnić, poprawić ani usunąć na Twoją prośbę. Dane zapisane na telefonie kontrolujesz sam. Masz też prawo wnieść skargę do Prezesa Urzędu Ochrony Danych Osobowych.</p>
+        </div>
+        <div>
+          <h2>Zmiany polityki</h2>
+          <p>Jeśli gra zacznie przetwarzać dane inaczej, zaktualizujemy tę stronę i zmienimy datę na górze.</p>
+        </div>
+      </article>
+    </section>
+
+    <hr>
+
+    <section class="lang" id="en" lang="en">
+      <div class="lang-label">English</div>
+      <div class="summary"><p><strong>In short:</strong> PAUSE! does not collect any personal data. There is no account, no ads and no analytics. Your progress stays on your phone, and payments are handled by Google Play.</p></div>
+      <article>
+        <div>
+          <h2>Who is responsible</h2>
+          <p>This policy covers the PAUSE! mobile game for Android (package <code>com.pause.perfecttiming</code>), published on Google Play by its developer. For privacy questions, write to: <span class="mail">szpajza@proton.me</span></p>
+        </div>
+        <div>
+          <h2>What data we collect</h2>
+          <p>None. The game needs no account or sign-in and contains no ads, analytics or tracking. It does not send any data to the developer's servers (the game has no servers of its own).</p>
+        </div>
+        <div>
+          <h2>Data stored on your phone</h2>
+          <p>The game saves the following locally, on your device only:</p>
+          <ul>
+            <li>game progress: scores, stars, coins, badges, skins, day streaks and missions,</li>
+            <li>settings: language, sound, vibration and reminder time,</li>
+            <li>whether you own the full version.</li>
+          </ul>
+          <p>The developer never receives this data. If Android backup is turned on in your phone, the system may store it in your private backup on Google Drive and restore it when you reinstall the game or move to a new phone. That backup is handled by Google, and the developer has no access to it. You can turn it off in your phone settings (Backup).</p>
+          <p>In the game settings you can also copy a "backup code" with your progress and keep it wherever you like. The game does not send it anywhere.</p>
+        </div>
+        <div>
+          <h2>In-app purchases</h2>
+          <p>The full version is bought through Google Play. Google handles the whole payment, and the developer never receives your card or other payment details. On your phone, the game only checks with Google Play whether the full version was bought, so it can unlock it. Google's processing is described in the <a href="https://policies.google.com/privacy" rel="noopener">Google Privacy Policy</a>.</p>
+        </div>
+        <div>
+          <h2>Reminders</h2>
+          <p>Daily challenge reminders are optional and off by default. If you turn them on, the game asks for notification permission and schedules them locally on your phone. No server is used to send notifications. You can turn them off in the game or phone settings.</p>
+        </div>
+        <div>
+          <h2>Sharing your score</h2>
+          <p>When you tap "Share result", the game creates a score image and opens the system share sheet. You decide whether and with whom to share it. The game sends nothing by itself.</p>
+        </div>
+        <div>
+          <h2>Permissions</h2>
+          <ul>
+            <li>Vibration: a short buzz when you stop the object.</li>
+            <li>Notifications: only if you turn on reminders.</li>
+            <li>Google Play billing: buying the full version.</li>
+          </ul>
+        </div>
+        <div>
+          <h2>Children</h2>
+          <p>The game does not collect data from anyone, including children.</p>
+        </div>
+        <div>
+          <h2>Your rights</h2>
+          <p>Because we do not store your data, there is nothing for us to provide, correct or delete on request. You control the data saved on your phone. You may also lodge a complaint with your local data protection authority.</p>
+        </div>
+        <div>
+          <h2>Changes to this policy</h2>
+          <p>If the game starts handling data differently, we will update this page and the date at the top.</p>
+        </div>
+      </article>
+    </section>
+
+    <footer>PAUSE! · <span>com.pause.perfecttiming</span></footer>
+  </div>
+</main>
+</body>
+</html>
